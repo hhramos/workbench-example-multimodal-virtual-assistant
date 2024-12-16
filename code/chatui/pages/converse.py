@@ -32,7 +32,7 @@ from chatui.utils import compile, database, logger
 from langgraph.graph import END, StateGraph
 
 PATH = "/"
-TITLE = "Lenovo Produc Virtual Assistant"
+TITLE = "Lenovo Product Virtual Assistant"
 OUTPUT_TOKENS = 250
 MAX_DOCS = 5
 
