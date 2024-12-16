@@ -2,7 +2,3 @@ http://localhost:8000
 Running on local URL:  http://0.0.0.0:8080
 
 To create a public link, set `share=True` in `launch()`.
----ROUTE QUESTION---
-hello
----ROUTE QUESTION---
-how many USB ports does a Thinkpad X1 Carbon 12th Gen have?
