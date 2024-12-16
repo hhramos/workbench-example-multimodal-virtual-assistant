@@ -155,11 +155,11 @@ def build_page(client: chat_client.ChatClient) -> gr.Blocks:
                         _ = gr.ClearButton([msg, chatbot], value="Clear history")
 
                 # Sample questions that users can click on to use
-                   with gr.Row(equal_height=True):
-                     sample_query_1 = gr.Button("What OS versions are supported by AI Workbench?", variant="secondary", size="sm", interactive=False)
-                     sample_query_2 = gr.Button("How do I get started with AI Workbench?", variant="secondary", size="sm", interactive=False)
+                with gr.Row(equal_height=True):
+                    sample_query_1 = gr.Button("What OS versions are supported by AI Workbench?", variant="secondary", size="sm", interactive=False)
+                    sample_query_2 = gr.Button("How do I get started with AI Workbench?", variant="secondary", size="sm", interactive=False)
                 
-                   with gr.Row(equal_height=True):
+                with gr.Row(equal_height=True):
                     sample_query_3 = gr.Button("How do I fix an inaccessible remote Location?", variant="secondary", size="sm", interactive=False)
                     sample_query_4 = gr.Button("How do I create a support bundle in AI Workbench CLI?", variant="secondary", size="sm", interactive=False)
             
