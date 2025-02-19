@@ -32,7 +32,7 @@ from chatui.utils import compile, database, logger
 from langgraph.graph import END, StateGraph
 
 PATH = "/"
-TITLE = "NVIDIA AI Workbench Virtual Assistant"
+TITLE = "Lenovo Workbench Product Assistant"
 OUTPUT_TOKENS = 250
 MAX_DOCS = 5
 
@@ -156,12 +156,12 @@ def build_page(client: chat_client.ChatClient) -> gr.Blocks:
 
                 # Sample questions that users can click on to use
                 with gr.Row(equal_height=True):
-                    sample_query_1 = gr.Button("What OS versions are supported by AI Workbench?", variant="secondary", size="sm", interactive=False)
-                    sample_query_2 = gr.Button("How do I get started with AI Workbench?", variant="secondary", size="sm", interactive=False)
+                    sample_query_1 = gr.Button("Reserved, Save for Later", variant="secondary", size="sm", interactive=False)
+                    sample_query_2 = gr.Button("Reserved, Save for Later", variant="secondary", size="sm", interactive=False)
                 
                 with gr.Row(equal_height=True):
-                    sample_query_3 = gr.Button("How do I fix an inaccessible remote Location?", variant="secondary", size="sm", interactive=False)
-                    sample_query_4 = gr.Button("How do I create a support bundle in AI Workbench CLI?", variant="secondary", size="sm", interactive=False)
+                    sample_query_3 = gr.Button("Reserved, Save for Later", variant="secondary", size="sm", interactive=False)
+                    sample_query_4 = gr.Button("Reserved, Save for Later", variant="secondary", size="sm", interactive=False)
             
             # Hidden column to be rendered when the user collapses all settings.
             with gr.Column(scale=1, min_width=100, visible=False) as hidden_settings_column:
@@ -180,7 +180,7 @@ def build_page(client: chat_client.ChatClient) -> gr.Blocks:
 
                     # Settings to initialize the app
                     with gr.TabItem("Welcome", id=0, interactive=True, visible=True) as welcome_settings:
-                        gr.Markdown("<br />Welcome to your virtual assistant! I can help with all kinds of questions related to NVIDIA AI Workbench. Use me to troubleshoot, get started with, or to simply learn more about AI Workbench. ")
+                        gr.Markdown("<br />Welcome to your virtual assistant! I can help with all kinds of questions related to Lenovo IDG and ISG products. Use me to troubleshoot, get started with, or to simply learn more about AI Workbench. ")
                         gr.Markdown("Press the button below to initialize the application. Happy chatting! ")
                         initialize = gr.Button("Initialize Virtual Assistant", variant="primary")
                         gr.Markdown("<br />")
